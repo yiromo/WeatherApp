@@ -1,0 +1,137 @@
+.container{
+    width: 605px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #61dafb 0%, #282c34 100%);
+    transition: background-image 1s ease;
+}
+
+.nav-bar{
+    background-image: linear-gradient(130deg,#6f236f 0%, #61dafb 100% );
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.nav-bar .inputCity{
+    border-radius: 35px;
+    outline: none;
+    width: 360px;
+    height: 90px;
+    background: white;
+    border: none;
+    padding-left: 40px;
+    color: #282c34;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.searchImg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 40px;
+    max-width: 90px !important;
+    max-height: 90px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.weatherImg img{
+    width: 150px;
+    height: 150px;
+    background-size:150px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.weatherTemp{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 100px;
+    color: white;
+}
+
+.weatherLocation{
+    justify-content: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: #f6f6f6;
+}
+
+.dataContainer{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.assets{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.assets img{
+    width: 80px;
+    height: 80px;
+}
+
+.data{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.locationTime{
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #61dafb;
+}
+
+.nasa-apod{
+    padding-top: 50px;
+    color: #61dafb;
+}
+
+.nasa-apod .nasa-apod-text{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.nasa-apod img{
+    border-radius: 30px;
+    height: 400px;
+    width: 500px;
+}
+
+.nasa-apod .apod-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nasa-apod .apod-explanation{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
