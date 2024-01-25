@@ -8,8 +8,7 @@ git clone:
 git clone https://github.com/yiromo/WeatherApp.git
 ```
 
-## Installization
-
+## Installation
 ```bash
 npm i react-leaflet
 
