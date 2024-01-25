@@ -6,6 +6,15 @@ Basic Weather App on React (With API's)
 git clone:
 ```bash
 git clone https://github.com/yiromo/WeatherApp.git
+```
 
-'''
-112
+## Installization
+
+```bash
+npm i react-leaflet
+
+npm i lodash
+
+```
+
+
